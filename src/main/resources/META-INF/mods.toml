@@ -1,0 +1,30 @@
+modLoader="javafml" 
+loaderVersion="[36,)" 
+license="All rights reserved"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" 
+
+[[mods]]
+modId="bombs" 
+version="${file.jarVersion}" 
+displayName="Bombs" 
+#updateJSONURL="https://change.me.example.invalid/updates.json" 
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" 
+logoFile="examplemod.png" 
+credits="fartedfish and slepderp" 
+authors="fartedfish and slepderp"
+description='''
+Satisfy your destructive needs with this mod. HEHEHEHA.
+'''
+[[dependencies.bombs]] 
+    modId="forge" 
+    mandatory=true 
+    versionRange="[36,)" 
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bombs]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
